@@ -1,0 +1,14 @@
+{
+  "english": {
+    "sign": "$",
+    "rate": 1
+  },
+  "spanish": {
+    "sign": "€",
+    "rate": 1.1
+  },
+  "romanian": {
+    "sign": "RON",
+    "rate": 4.6
+  }
+}

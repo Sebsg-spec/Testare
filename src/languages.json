@@ -1,0 +1,19 @@
+{
+  "description_headline": {
+    "english": "Delicious Food, Delivered To You",
+    "romanian": "Mancare Delicioasa, Livrata La Tine",
+    "spanish": "Comida deliciosa, entregada a usted"
+  },
+  "description_body": {
+    "english": "Choose your favorite meal from our broad selection of available meals and enjoy a delicious lunch or dinner at home. All our meals are cooked with high-quality ingredients, just-in-time and of course by experienced chefs!",
+    "romanian": "Alege-ti preparatul preferat din gama noastra larga, si bucura-te de o masa delicioasa la tine acasa. Toate preparatele noastre sunt pregatite cu ingrediente de inalta calitate, de catre bucatari cu experienta vasta!",
+    "spanish": "Elija su comida favorita de nuestra amplia selección de comidas disponibles y disfrute de un delicioso almuerzo o cena en casa. ¡Todas nuestras comidas se cocinan con ingredientes de alta calidad, justo a tiempo y, por supuesto, por chefs experimentados!"
+  },
+  "cart_title": { "english": "Your Cart", "romanian": "Cosul Tau", "spanish":"Tu carrito"  },
+  "close": { "english": "Close", "romanian": "Inchide", "spanish":"Cerrar" },
+  "order": { "english": "Order", "romanian": "Comanda", "spanish":"Ordenar" },
+  "amount": { "english": "Amount", "romanian": "Cantitate", "spanish":"Cantidad" },
+  "add": { "english": "Add", "romanian": "Adauga", "spanish":"Agregar" },
+  "address": { "english": "Address", "romanian": "Adresa", "spanish":"Dirección" },
+  "working_hours": { "english": "Working Hours", "romanian": "Program", "spanish":"Horario" }
+}
