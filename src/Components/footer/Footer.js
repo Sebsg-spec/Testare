@@ -1,7 +1,7 @@
 import React, { useState, useContext } from "react";
 import "./Footer.css";
-import { LanguageContext } from "./App.js";
-import languages from "./languages.json";
+import { LanguageContext } from "../../App.js";
+import languages from "../../languages.json";
 
 const Footer = () => {
   const language = useContext(LanguageContext);

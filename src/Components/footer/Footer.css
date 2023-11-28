@@ -1,9 +1,9 @@
 #footerDiv {
     display: block;
     padding-top: 50px;
+    align-items: center;
 }
 
 #footerP {
-    padding-left: 600px;
     padding-bottom: 20px;
 }

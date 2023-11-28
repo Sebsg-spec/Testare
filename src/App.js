@@ -2,13 +2,13 @@ import logo from "./logo.svg";
 import "./App.css";
 import languages from "./languages.json";
 import currencies from "./currencies.json";
-import NavigationBar from "./NavigationBar";
-import background from "./background.jpg";
-import Meals from "./Meals";
+import NavigationBar from "./Components/navbar/NavigationBar.js";
+import background from "./undercooked-burgers.jpeg";
+import Meals from "./Components/meals/Meals.js";
 import React, { useState, createContext, useEffect } from "react";
-import CartModal from "./CartModal.js";
-import Footer from "./Footer.js";
-import cart from "./cart.jpg";
+import CartModal from "./Components/cart/CartModal.js";
+import Footer from "./Components/footer/Footer.js";
+import cart from "./Components/cart/cart.jpg";
 
 export const LanguageContext = createContext();
 

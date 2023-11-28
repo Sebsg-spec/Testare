@@ -1,8 +1,8 @@
 import React, { useState, useContext } from "react";
 import "./Meals.css";
-import { LanguageContext } from "./App.js";
-import languages from "./languages.json";
-import currencies from "./currencies.json";
+import { LanguageContext } from "../../App.js";
+import languages from "../../languages.json";
+import currencies from "../../currencies.json";
 
 const Meals = (props) => {
   const language = useContext(LanguageContext);

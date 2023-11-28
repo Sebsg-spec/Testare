@@ -1,9 +1,9 @@
 import "./NavigationBar.css";
 import React, { useState, useContext } from "react";
-import { LanguageContext } from "./App.js";
-import languages from "./languages.json";
-import CartModal from "./CartModal";
-import cart from "./cart.jpg";
+import { LanguageContext } from "../../App.js";
+import languages from "../../languages.json";
+import CartModal from "../cart/CartModal";
+import cart from "../cart/cart.jpg";
 
 const NavigationBar = (props) => {
   const [hide, setHide] = useState(true);
@@ -29,7 +29,7 @@ const NavigationBar = (props) => {
         />
       )}
       <div id="navigation">
-        <h2 id="title">GRANDE</h2>
+        <h2 id="title">Small Belly</h2>
         <form>
           <select value={props.language} onChange={props.onSelectLanguage}>
             <option value="english">English</option>

@@ -1,8 +1,8 @@
 import "./CartModal.css";
 
 import React, { useState,useEffect,useContext } from "react";
-import {LanguageContext} from "./App.js"
-import languages from "./languages.json"
+import {LanguageContext} from "../../App.js"
+import languages from "../../languages.json"
 
 const CartModal = (props) => {
   const language = useContext(LanguageContext);
