@@ -29,12 +29,12 @@ const NavigationBar = (props) => {
         />
       )}
       <div id="navigation">
-        <h2 id="title">Small Belly</h2>
+        <h2 id="title">Small Billy</h2>
         <form>
           <select value={props.language} onChange={props.onSelectLanguage}>
             <option value="english">English</option>
             <option value="romanian">Romana</option>
-            <option value="spanish">Espanol</option>
+            <option value="german">German</option>
           </select>
         </form>
         <div id="cart-container" onClick={onClickCartModalHandler}>

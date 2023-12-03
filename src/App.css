@@ -5,7 +5,7 @@
 .App {
   text-align: center;
   height:130%;
-  padding-top: 50px;
+  padding-top: 0px;
 }
 
 .App-logo {
@@ -45,13 +45,17 @@
 
 #description-container{
   display: inline-block;
-  padding-top: 10%;
+  padding-top: 14%;
   text-align: center;
   justify-content: center;
 vertical-align: middle;
-    height: 30%;
     width: 40%;
     flex-direction: row;
-   
-  
+}
+
+
+
+h1, p {
+  color: white;
+  text-shadow: 1px 1px 2px black;
 }

@@ -1,8 +1,6 @@
 .meals-container{
-    display: flex;
-    flex-direction: row;
+    display: inline-block;
     width: 100%;
-    justify-content: space-evenly;
     align-items: center;
  padding-left: 20px
 
@@ -20,8 +18,11 @@
     border-radius: 12px;
    
 }
+input {
+    margin-left: 20px;
+}
 .meals-button{
-    background-color:  rgb(156, 16, 44);
+    background-color:  rgb(247, 191, 60);
     width: 60px;
     height: 30px;
     text-align: center;

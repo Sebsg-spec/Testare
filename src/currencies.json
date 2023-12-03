@@ -1,11 +1,11 @@
 {
   "english": {
-    "sign": "$",
+    "sign": "€",
     "rate": 1
   },
-  "spanish": {
+  "german": {
     "sign": "€",
-    "rate": 1.1
+    "rate": 1
   },
   "romanian": {
     "sign": "RON",

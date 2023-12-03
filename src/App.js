@@ -22,27 +22,27 @@ const App = () => {
     setMeals([
       {
         id: "meal1",
-        title: "Sushi",
-        description: "Finest fish and veggies",
-        price: (10.99 * currencies[selectedLanguage].rate).toFixed(2),
+        title: "Hamburger",
+        description: "Honey Buns, Burger Meat, Salad, Tomato, Burger Sauce",
+        price: (12.00 * currencies[selectedLanguage].rate).toFixed(2),
       },
       {
         id: "meal2",
-        title: "Rice Bowl",
-        description: "Healthy rice yummy",
-        price: (5.99 * currencies[selectedLanguage].rate).toFixed(2),
+        title: "Cheeseburger",
+        description: "Buns, Burger Meat, 2x Cedar, Salad, Tomato, Burger Sauce",
+        price: (14.00 * currencies[selectedLanguage].rate).toFixed(2),
       },
       {
         id: "meal3",
-        title: "Burger",
-        description: "American, raw, meaty",
-        price: (10.99 * currencies[selectedLanguage].rate).toFixed(2),
+        title: "Vegan Burger",
+        description: "Buns, Vegan Meat, Salad, Tomato, Burger Sauce",
+        price: (10.00 * currencies[selectedLanguage].rate).toFixed(2),
       },
       {
         id: "meal4",
-        title: "Pizza",
-        description: "Intensely cheesy flavor",
-        price: (8.99 * currencies[selectedLanguage].rate).toFixed(2),
+        title: "Pizza Margherita",
+        description: "Pizza Dough, Cheese, Tomato Sauce ",
+        price: (16.00 * currencies[selectedLanguage].rate).toFixed(2),
       },
     ]);
   }, [selectedLanguage]);
@@ -88,7 +88,7 @@ const App = () => {
 
   return (
     <LanguageContext.Provider value={selectedLanguage}>
-      <div className="App" style={{ backgroundImage: `url(${background})` }}>
+      <div className="App" style={{ backgroundImage: `url(${background})`, backgroundRepeat: 'no-repeat', height:'900px', width:'auto'}}>
         <NavigationBar
           language={selectedLanguage}
           cartAmount={amount}
@@ -97,6 +97,7 @@ const App = () => {
           onOrder={onOrderHandler}
           onSelectLanguage={onSelectLanguageHandler}
         />
+        
         <div id="description-container">
           <h1>{languages.description_headline[selectedLanguage]}</h1>
           <p>{languages.description_body[selectedLanguage]}</p>
